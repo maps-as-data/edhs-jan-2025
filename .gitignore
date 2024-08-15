@@ -163,7 +163,6 @@ cython_debug/
 
 # MapReader Outputs 
 
-maps/*
 patches_100_meters/*
 models/*
 tmp_checkpoints/*
