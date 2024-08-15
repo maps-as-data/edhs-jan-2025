@@ -4,11 +4,11 @@
 
 This contains a worked example of running [MapReader](https://github.com/Living-with-machines/MapReader).
 
-## Set up - Google colab (reccomended)
+## Set up - Google Colab (recommended)
 
-- Open [google colab](https://colab.research.google.com/)
-- In the `Open notebook` window, click the `GitHub` option
-- Paste the URL of this reposite into the search bar and press Enter
+- Open [Google Colab](https://colab.research.google.com/)
+- In the "Open notebook" window, click the "GitHub" option
+- Paste the URL of this repository into the search bar and press Enter
 - Open `spatial-humanities-workshop.ipynb`
 
 
