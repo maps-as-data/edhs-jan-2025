@@ -78,6 +78,6 @@ By default, Google Colab uses a CPU runtime. If you want to use a GPU runtime, y
 ## Alternative option - Binder
 
 This repo should also build in [mybinder](https://mybinder.org/).
-> *NOTE:* You will need to skip google colab specific cells if you use binder.
+> *NOTE:* You will need to skip google colab specific cells if you use binder and update file paths to reflect the binder environment.
 
 - Open [this link](https://mybinder.org/v2/gh/Living-with-machines/spatial-humanities-mapreader-workshop/main?labpath=spatial-humanities-workshop.ipynb)
