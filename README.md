@@ -33,11 +33,11 @@ If you are familiar with Google Colab, you can set up the notebook by following 
 
    ![Open notebook window's GitHub option](images/1-open-notebook-github.png)
 
-3. Paste the URL of this repository (`https://github.com/Living-with-Machines/spatial-humanities-mapreader-workshop`) into the search bar and press `Enter`.
+3. Paste the URL of this repository into the search bar and press `Enter`.
 
     ![GitHub search bar](images/1-open-notebook-url.png)
 
-4. After pressing `Enter`, a list of notebooks in the repository should appear. Click on `spatial-humanities-workshop.ipynb` to open it.
+4. After pressing `Enter`, a list of notebooks in the repository should appear. Click on `mapreader-spatial-humanities-workshop.ipynb` to open it.
 
     ![Select the notebook](images/1-open-notebook-link.png)
 
@@ -77,7 +77,8 @@ By default, Google Colab uses a CPU runtime. If you want to use a GPU runtime, y
 
 ## Alternative option - Binder
 
-This repo should also build in [mybinder](https://mybinder.org/).
+This repo should also build in [mybinder](https://mybinder.org/). You can do this by via [this link](https://mybinder.org/v2/gh/maps-as-data/spatial-humanities-mapreader-workshop/main?labpath=mapreader-spatial-humanities-workshop.ipynb).
+
+
 > *NOTE:* You will need to skip google colab specific cells if you use binder and update file paths to reflect the binder environment.
 
-- Open [this link](https://mybinder.org/v2/gh/Living-with-machines/spatial-humanities-mapreader-workshop/main?labpath=spatial-humanities-workshop.ipynb)
