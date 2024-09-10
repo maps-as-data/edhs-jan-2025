@@ -1,6 +1,6 @@
 # Spatial Humanities Mapreader Workshop 2024
 
-This contains a worked example of running [MapReader](https://github.com/Living-with-machines/MapReader).
+This repo contains a worked example of running [MapReader](https://github.com/maps-as-data/MapReader).
 
 Follow the instructions below to set up the notebook on Google Colab or Binder.
 
@@ -10,7 +10,7 @@ Follow the instructions below to set up the notebook on Google Colab or Binder.
   - [Set up - Google Colab (short version)](#set-up---google-colab-short-version)
   - [Detailed instructions for setting up on Google Colab](#detailed-instructions-for-setting-up-on-google-colab)
     - [Optional: Change the runtime type](#optional-change-the-runtime-type)
-  - [Alternative option - Binder](#alternative-option---binder)
+  - [Alternative set up - MyBinder](#alternative-set-up---mybinder)
 
 ## Set up - Google Colab (short version)
 
@@ -75,7 +75,7 @@ By default, Google Colab uses a CPU runtime. If you want to use a GPU runtime, y
 
     ![GPU runtime](images/4-resources-result.png)
 
-## Alternative option - Binder
+## Alternative set up - MyBinder
 
 This repo should also build in [mybinder](https://mybinder.org/). Simply follow [this link](https://mybinder.org/v2/gh/maps-as-data/spatial-humanities-mapreader-workshop/main?labpath=mapreader-spatial-humanities-workshop.ipynb) to get started.
 
