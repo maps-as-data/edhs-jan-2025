@@ -1,16 +1,15 @@
 # Spatial Humanities Mapreader Workshop 2024
 
-This repo contains a worked example of running [MapReader](https://github.com/maps-as-data/MapReader).
+This repo contains a worked example of running [MapReader](https://github.com/maps-as-data/MapReader), designed for the [Spatial Humanities conference 2024](https://spathum.uni-bamberg.de/).
 
 Follow the instructions below to set up the notebook on Google Colab or Binder.
 
 <h2>Table of contents</h2>
 
-- [Spatial Humanities Mapreader Workshop 2024](#spatial-humanities-mapreader-workshop-2024)
-  - [Set up - Google Colab (short version)](#set-up---google-colab-short-version)
-  - [Detailed instructions for setting up on Google Colab](#detailed-instructions-for-setting-up-on-google-colab)
-    - [Optional: Change the runtime type](#optional-change-the-runtime-type)
-  - [Alternative set up - MyBinder](#alternative-set-up---mybinder)
+- [Set up - Google Colab (short version)](#set-up---google-colab-short-version)
+- [Detailed instructions for setting up on Google Colab](#detailed-instructions-for-setting-up-on-google-colab)
+  - [Optional: Change the runtime type](#optional-change-the-runtime-type)
+- [Alternative set up - MyBinder](#alternative-set-up---mybinder)
 
 ## Set up - Google Colab (short version)
 
