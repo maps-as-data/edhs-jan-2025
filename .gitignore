@@ -161,11 +161,14 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
+.DS_Store
+
 # MapReader Outputs 
 
-patches_100_meters/*
+patches_*_*
 models/*
 tmp_checkpoints/*
 annotations/*
 /*patch_df.csv
 /*parent_df.csv
+predicted_outputs.geojson
