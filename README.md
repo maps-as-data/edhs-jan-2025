@@ -2,7 +2,7 @@
 
 This repo contains a worked example of running [MapReader](https://github.com/maps-as-data/MapReader), designed for the [Spatial Humanities conference 2024](https://spathum.uni-bamberg.de/).
 
-Follow the instructions below to set up the notebook in Docker or on Google Colab.
+Follow the instructions below to set up the notebook on Google Colab (recommended), in Docker or locally.
 
 <h2>Table of contents</h2>
 
@@ -12,6 +12,8 @@ Follow the instructions below to set up the notebook in Docker or on Google Cola
 - [Set up - Docker](#set-up---docker)
   - [Creating the Docker image](#creating-the-docker-image)
   - [Running the Docker container](#running-the-docker-container)
+- [Set up - Local](#set-up---local)
+
 
 ## Set up - Google Colab (short version)
 
@@ -20,7 +22,7 @@ If you are familiar with Google Colab, you can set up the notebook by following 
 - Open [Google Colab](https://colab.research.google.com/)
 - In the "Open notebook" window, click the "GitHub" option
 - Paste the URL of this repository into the search bar and press Enter
-- Open `spatial-humanities-workshop.ipynb`
+- Open `mapreader-spatial-humanities-workshop.ipynb`
 
 ## Detailed instructions for setting up on Google Colab
 
@@ -102,3 +104,20 @@ docker run -p 8888:8888 --mount source=workshop_outputs,target=/app mapreader-wo
 ```
 
 Click the link that appears in the terminal to open the notebook in your browser.
+
+## Set up - Local
+
+To run the notebook locally, follow the instructions [here](https://mapreader.readthedocs.io/en/latest/getting-started/installation-instructions/index.html) to set up your MapReader python environment.
+
+You can then install the required packages for this notebook by running:
+
+```bash
+pip install -r requirements.txt
+```
+
+You can then run the notebook by running:
+
+```bash
+
+jupyter notebook mapreader-spatial-humanities-workshop.ipynb
+```
