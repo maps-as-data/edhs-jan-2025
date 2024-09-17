@@ -2,14 +2,43 @@
 
 This repo contains a worked example of running [MapReader](https://github.com/maps-as-data/MapReader), designed for the [Spatial Humanities conference 2024](https://spathum.uni-bamberg.de/).
 
-Follow the instructions below to set up the notebook on Google Colab or Binder.
+Follow the instructions below to set up the notebook in Docker or on Google Colab.
 
 <h2>Table of contents</h2>
 
+- [Set up - Docker](#set-up---docker)
+  - [Creating the Docker image](#creating-the-docker-image)
+  - [Running the Docker container](#running-the-docker-container)
 - [Set up - Google Colab (short version)](#set-up---google-colab-short-version)
 - [Detailed instructions for setting up on Google Colab](#detailed-instructions-for-setting-up-on-google-colab)
   - [Optional: Change the runtime type](#optional-change-the-runtime-type)
-- [Alternative set up - MyBinder](#alternative-set-up---mybinder)
+
+## Set up - Docker
+
+### Creating the Docker image
+
+Clone the repository and navigate to the root directory of the repository.
+
+```bash
+git clone https://github.com/maps-as-data/spatial-humanities-mapreader-workshop
+cd spatial-humanities-mapreader-workshop
+```
+
+To create the Docker image, run the following command:
+
+```bash
+docker build -t mapreader-workshop .
+```
+
+### Running the Docker container
+
+To run the Docker container, run the following command:
+
+```bash
+docker run -p 8888:8888 --mount source=workshop_outputs,target=/app mapreader-workshop
+```
+
+Click the link that appears in the terminal to open the notebook in your browser.
 
 ## Set up - Google Colab (short version)
 
@@ -73,11 +102,3 @@ By default, Google Colab uses a CPU runtime. If you want to use a GPU runtime, y
 3. The runtime type should now be changed to GPU.
 
     ![GPU runtime](images/4-resources-result.png)
-
-## Alternative set up - MyBinder
-
-This repo should also build in [mybinder](https://mybinder.org/). Simply follow [this link](https://mybinder.org/v2/gh/maps-as-data/spatial-humanities-mapreader-workshop/main?labpath=mapreader-spatial-humanities-workshop.ipynb) to get started.
-
-
-> *NOTE:* You will need to skip google colab specific cells if you use binder and update file paths to reflect the binder environment.
-
