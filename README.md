@@ -1,3 +1,4 @@
+# ARCHIVED: This repo will not be updated with new changes to the MapReader code.
 # Spatial Humanities Mapreader Workshop 2024
 
 [![Slides](https://img.shields.io/badge/slides-blue)](https://github.com/maps-as-data/spatial-humanities-mapreader-workshop/blob/main/slides.pdf)
