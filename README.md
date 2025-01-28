@@ -1,9 +1,9 @@
-# SCAI Digital Humanities and Artificial Intelligence School - January 2025 - MapReader Session
+# EDHS - January 2025 - MapReader Session
 
-[![Slides](https://img.shields.io/badge/slides-blue)](https://github.com/maps-as-data/spatial-humanities-mapreader-workshop/blob/main/slides.pdf)
+[![Slides](https://img.shields.io/badge/slides-blue)](https://github.com/maps-as-data/edhs-jan-2025/blob/main/slides.pdf)
 [![Documentation](https://img.shields.io/badge/documentation-green)](https://mapreader.readthedocs.io/en/latest)
 
-This repo contains a worked example of running [MapReader](https://github.com/maps-as-data/MapReader), designed for the [SCAI Digital Humanities and AI School in January 2025](https://scai.sorbonne-universite.fr/public/events/view/cb80598905b0d591b2f6/3).
+This repo contains a worked example of running [MapReader](https://github.com/maps-as-data/MapReader), designed for the [EDHS MapReader session in January 2025](https://www.digital-humanities.manchester.ac.uk/connect/events/edhs/).
 
 Follow the instructions below to set up the notebook on Google Colab (**recommended**), in Docker or locally.
 
@@ -25,7 +25,7 @@ If you are familiar with Google Colab, you can set up the notebook by following 
 - Open [Google Colab](https://colab.research.google.com/)
 - In the "Open notebook" window, click the "GitHub" option
 - Paste the URL of this repository into the search bar and press Enter
-- Open `mapreader-spatial-humanities-workshop.ipynb`
+- Open `mapreader_edhs_jan_2025.ipynb`
 
 ## Detailed instructions for setting up on Google Colab
 
@@ -43,7 +43,7 @@ If you are familiar with Google Colab, you can set up the notebook by following 
 
     ![GitHub search bar](images/1-open-notebook-url.png)
 
-4. After pressing `Enter`, a list of notebooks in the repository should appear. Click on `mapreader-spatial-humanities-workshop.ipynb` to open it.
+4. After pressing `Enter`, a list of notebooks in the repository should appear. Click on `mapreader_edhs_jan_2025.ipynb` to open it.
 
     ![Select the notebook](images/1-open-notebook-link.png)
 
@@ -88,8 +88,8 @@ By default, Google Colab uses a CPU runtime. If you want to use a GPU runtime, y
 Clone the repository and navigate to the root directory of the repository.
 
 ```bash
-git clone https://github.com/maps-as-data/spatial-humanities-mapreader-workshop
-cd spatial-humanities-mapreader-workshop
+git clone https://github.com/maps-as-data/edhs-jan-2025.git
+cd edhs-jan-2025
 ```
 
 To create the Docker image, run the following command:
@@ -122,5 +122,5 @@ You can then run the notebook by running:
 
 ```bash
 
-jupyter notebook mapreader-spatial-humanities-workshop.ipynb
+jupyter notebook mapreader_edhs_jan_2025.ipynb
 ```
